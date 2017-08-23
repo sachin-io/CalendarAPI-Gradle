@@ -71,14 +71,6 @@ window.onload = function showContact() {
 <body">  
 	<h1>Welcome to Google Calendar Prototype</h1>
 
-
-
-
-
-
-
-<jsp:directive.include file = "contact.html" />
-
 <br><br><br><br><br><br>
 <h1>Here is part for Queues: </h1>
 

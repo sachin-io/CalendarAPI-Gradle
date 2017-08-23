@@ -1,10 +1,3 @@
-package com.full;
-
-
-
-
-
-
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
@@ -27,12 +20,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
-
-@Controller
 public class Quickstart {
     /** Application name. */
     private static final String APPLICATION_NAME =
@@ -139,18 +127,4 @@ public class Quickstart {
             }
         }
     }
-
-    
-    
-	@RequestMapping(method = RequestMethod.GET)
-    public String loadMain(){
-		
-		System.out.println("Trying to return CREATE PAGE");
-		return "index.jsp";
-
-    	
-    }
-    
-    
-    
 }
