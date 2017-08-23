@@ -1,8 +1,8 @@
-#Spring Boot with Gradle 
+## Spring Boot with Gradle 
 
 Inject spring boot dependencies into build.gralde
 
-Run : gradle clean bootRun (To run tomcat server with 8080 port)
+Run : `gradle clean bootRun` (To run tomcat server with 8080 port)
 
 `http://localhost:8080/home`
 ```
